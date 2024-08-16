@@ -1,0 +1,80 @@
+
+
+
+/* Responsive Styles */
+@media (max-width: 748px) {
+    nav ul {
+        display: none;
+    }
+   
+   header nav {
+        flex-direction: column;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero1 h1 {
+        font-size: 2rem;
+    }
+
+    .heroimg {
+        margin-top: 20px;
+    }
+
+    .steps, .deals, .tests {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step, .deal, .test {
+        flex: 1 1 100%;
+    }
+
+    .group1 input[type="text"], .group1 input[type="date"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero1 h1 {
+        font-size: 1.5rem;
+    }
+
+    .buttons2 button {
+        padding: 10px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .deals img, .steps img, .tests img {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .heroimg{
+        display:none;
+    }
+    .logo
+    {
+        margin-top:3px;
+    }
+   
+.logo img
+{
+margin-top:-10px;
+margin-left:-10px;
+}
+
+}
+

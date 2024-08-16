@@ -10,3 +10,12 @@ document.getElementById('rentalForm').addEventListener('submit',
 
     alert(`Location: ${location}\nPick-Up Date: ${pickupDate}\nReturn Date: ${returnDate}`);
 });
+function toggleModal() {
+    const modal = document.getElementById('navModal');
+    if (modal.style.display === "flex") {
+        modal.style.display = "none";
+    } else {
+        modal.style.display = "flex";
+    }
+}
+
